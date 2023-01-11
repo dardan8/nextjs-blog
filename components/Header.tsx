@@ -1,7 +1,13 @@
-import React from "react";
+import Link from "next/link";
 
-const Header = () => {
-  return <div>Header</div>;
-};
-
-export default Header;
+export default function Header() {
+  return (
+    <header>
+      <div>
+        <Link href='/blog'>
+          <h2>Dev Blog</h2>
+        </Link>
+      </div>
+    </header>
+  );
+}
