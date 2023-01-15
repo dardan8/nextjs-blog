@@ -1,6 +1,11 @@
 import Link from "next/link";
 
-export default function Post({ post }) {
+type postsProps = {
+  post: {};
+  frontmatter: any;
+};
+
+export default function Post({ post }: postsProps) {
   return (
     <div className='card'>
       <img src={post.frontmatter.cover_image} alt='' />
@@ -11,7 +16,9 @@ export default function Post({ post }) {
 
       <p>{post.frontmatter.excerpt}</p>
 
-      <Link href={`/blog/${post.slug}`}>Read More</Link>
+      <Link href={`/blog/${post.slug}`} legacyBehavior>
+        <a className='btn'>Read More</a>
+      </Link>
     </div>
   );
 }

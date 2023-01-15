@@ -8,8 +8,13 @@ export default function Header() {
           <h2>Dev Blog</h2>
         </Link>
         <ul>
-          <li>Home</li>
-          <li>About</li>
+          <Link href='/'>
+            <li>Home</li>
+          </Link>
+          <Link href='/about'>
+            <li>About</li>
+          </Link>
+
           <li>Blogs</li>
         </ul>
       </div>

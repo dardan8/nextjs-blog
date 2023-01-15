@@ -5,7 +5,11 @@ import Head from "next/head";
 import Post from "../components/Post";
 import { sortByDate } from "../utils";
 
-export default function Home({ posts }) {
+type postsProps = {
+  posts: [];
+};
+
+export default function Home({ posts }: postsProps) {
   return (
     <div>
       <Head>
