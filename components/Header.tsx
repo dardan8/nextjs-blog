@@ -1,12 +1,15 @@
 import Link from "next/link";
 
+import "../styles/Header.module.css";
+
 export default function Header() {
   return (
-    <header>
-      <div>
+    <header className='header'>
+      <div className='menucontainer'>
         <Link href='/blog'>
           <h2>Dev Blog</h2>
         </Link>
+
         <ul>
           <Link href='/'>
             <li>Home</li>
