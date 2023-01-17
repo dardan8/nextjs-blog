@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import Head from "next/head";
 import Post from "../components/Post";
 import { sortByDate } from "../utils";
-
+import Hero from "../components/Hero";
 type postsProps = {
   posts: [];
 };
@@ -15,7 +15,7 @@ export default function Home({ posts }: postsProps) {
       <Head>
         <title>Dev Blog</title>
       </Head>
-
+      <Hero />
       <div className='posts'>
         {posts.map((post, index) => (
           <Post key={index} post={post} />
