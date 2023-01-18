@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 type postsProps = {
   post: {};
   frontmatter: any;
@@ -8,7 +8,12 @@ type postsProps = {
 export default function Post({ post }: postsProps) {
   return (
     <div className='card'>
-      <img src={post.frontmatter.cover_image} alt='' />
+      <Image
+        width='350'
+        height='150'
+        src={post.frontmatter.cover_image}
+        alt='Cover image food'
+      />
 
       <div className='post-date'>Posted on {post.frontmatter.date}</div>
 

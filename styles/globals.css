@@ -22,3 +22,13 @@ ul li {
   text-decoration: none;
   list-style-type: none;
 }
+
+.button-primary {
+  padding: 0.5rem 1.5rem;
+  background-color: black;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 1.4rem;
+
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.herocontainer {
+  width: 100%;
+  height: 20rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem;
+  border-bottom: 1px solid gray;
+}
+
+.heroleft {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.heroimage {
+  width: 20rem;
+  height: 15rem;
+  object-fit: cover;
+}

@@ -24,7 +24,7 @@ export default function Header() {
       </div>
       <div className={styles.signincontainer}>
         <p>Log in</p>
-        <button>Sign up</button>
+        <button className='button-primary'>Sign up</button>
       </div>
     </header>
   );
