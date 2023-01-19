@@ -1,5 +1,23 @@
 .filtercontainer {
   display: flex;
   width: 100%;
-  padding: 2rem 10rem;
+  padding: 0rem 10rem;
+  height: 3rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.366);
+}
+
+.filteritems {
+  display: flex;
+  gap: 1rem;
+  height: 3rem;
+}
+
+.filteritem {
+  height: 100%;
+  border-bottom: 1px solid rgba(40, 23, 23, 0);
+  cursor: pointer;
+}
+
+.filteritem:hover {
+  border-bottom: 2px solid black;
 }

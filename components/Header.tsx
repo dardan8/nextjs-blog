@@ -8,8 +8,7 @@ export default function Header() {
       <div className={styles.menucontainer}>
         <ul>
           <li>
-            <Link href='/'> </Link>
-            Home
+            <Link href='/'> Home</Link>
           </li>
           <li>
             <Link href='/about'>Resources </Link>

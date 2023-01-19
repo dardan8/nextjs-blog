@@ -14,6 +14,10 @@ const Hero = () => {
         <SubscribeElement />
       </div>
       <div className={styles.heroright}>
+        <h1>
+          All you need for your cooking days.
+          Recipes. Easy. Fast.
+        </h1>
       <Image 
       src={HeroImage}
       alt="Hero image cooking pan"

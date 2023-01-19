@@ -15,10 +15,10 @@ export default function Home({ posts }: postsProps) {
   return (
     <div>
       <Head>
-        <title>Dev Blog</title>
+        <title>Cooking Blog by Dardan</title>
       </Head>
       <Hero />
-      <Filter />
+      <Filter posts={posts} />
       <div className='postscontainer'>
         {posts.map((post, index) => (
           <Post key={index} post={post} />
