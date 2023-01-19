@@ -2,7 +2,8 @@
 title: "Chicken Bacon Ranch Pasta"
 date: "March 5, 2021"
 excerpt: "The pasta dish will be ready in 30 minutes. Add a green salad and glass of sweet peach tea for a fast weeknight meal."
-cover_image: "/images/posts/image3.webp"
+cover_image: "/images/posts/image3.jpg"
+Topic: "Soups"
 ---
 
 Bring a large pot of lightly salted water to a boil; cook rotini at a boil until tender yet firm to the bite, about 8 minutes. Drain rotini, saving 1/2 cup of pasta water.

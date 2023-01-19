@@ -2,7 +2,8 @@
 title: "Balsamic Braised Pork Tenderloins with Fresh Figs"
 date: "March 5, 2022"
 excerpt: "Use fresh figs to add some sweetness to these balsamic braised pork tenderloins. Bonus: There is no added sugar."
-cover_image: "/images/posts/image5.webp"
+cover_image: "/images/posts/image5.jpg"
+topic: "Desert"
 ---
 
 ## ingredients

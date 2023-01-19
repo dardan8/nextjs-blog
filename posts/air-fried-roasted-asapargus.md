@@ -2,7 +2,8 @@
 title: "Air Fryer Roasted Asparagus"
 date: "March 5, 2022"
 excerpt: "With air fryer asparagus, you can have this roasted vegetable on your table in less than 20 minutes. This makes the perfect side dish for a weeknight."
-cover_image: "/images/posts/image7.webp"
+cover_image: "/images/posts/image7.jpeg"
+topic: "Main Course"
 ---
 
 ## ingredients

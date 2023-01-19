@@ -5,6 +5,8 @@ import Head from "next/head";
 import Post from "../components/Post";
 import { sortByDate } from "../utils";
 import Hero from "../components/Hero";
+import Filter from "../components/Filter";
+
 type postsProps = {
   posts: [];
 };
@@ -16,7 +18,8 @@ export default function Home({ posts }: postsProps) {
         <title>Dev Blog</title>
       </Head>
       <Hero />
-      <div className='posts'>
+      <Filter />
+      <div className='postscontainer'>
         {posts.map((post, index) => (
           <Post key={index} post={post} />
         ))}

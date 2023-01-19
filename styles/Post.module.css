@@ -1,0 +1,61 @@
+.card {
+  width: 400px;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+.blogpost_metadata {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 3rem;
+
+  background-color: rgba(0, 0, 0, 0.109);
+  color: #fff;
+  margin-top: -3rem;
+  position: relative;
+  padding: 0 1rem;
+
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(255, 255, 255, 0.371);
+  z-index: 3;
+}
+
+.heading3 {
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.excerpt_text {
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
+  color: rgb(61, 62, 69);
+  font-weight: 500;
+}
+
+.readmore_cta {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+
+  gap: 0.5rem;
+  color: #000;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+  align-items: flex-end;
+}
+
+.readmore_icon {
+  font-size: 1.4rem;
+}

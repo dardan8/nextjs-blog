@@ -2,7 +2,8 @@
 title: "12 Great Recipes to Pair with Syrah or Shiraz"
 date: "March 2, 2022"
 excerpt: "Use fresh figs to add some sweetness to these balsamic braised pork tenderloins. Bonus: There is no added sugar."
-cover_image: "/images/posts/image6.webp"
+cover_image: "/images/posts/image6.jpg"
+topic: "Main Course"
 ---
 
 ## ingredients

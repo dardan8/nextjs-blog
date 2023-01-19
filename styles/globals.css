@@ -32,3 +32,20 @@ ul li {
 
   cursor: pointer;
 }
+
+.blogpost-featuredimage {
+  object-fit: cover;
+  z-index: 1;
+}
+
+.postscontainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 100%;
+  padding: 5rem 10rem;
+  display: flex;
+  gap: 6rem;
+  flex-wrap: wrap;
+}

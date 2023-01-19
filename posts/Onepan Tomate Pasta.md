@@ -2,7 +2,8 @@
 title: "One-Pan Tomato & Spinach Chicken Pasta"
 date: "March 5, 2021"
 excerpt: "Our version of an Italian classic uses just one skillet and takes just 40 minutes to prepare!"
-cover_image: "/images/posts/image1.webp"
+cover_image: "/images/posts/image1.jpg"
+topic: "Pasta"
 ---
 
 Season the chicken as desired. Heat the oil in a 12-inch skillet over medium-high heat. Add the chicken and cook until well browned, stirring often. Remove the chicken from the skillet.
