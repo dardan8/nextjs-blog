@@ -5,7 +5,7 @@ import {marked} from 'marked'
 import Link from 'next/link'
 
 
-export default function PostPage({frontmatter: {title, date, cover_image}, slug, content}) {
+export default function PostPage({frontmatter: {title, date, cover_image, topic}, slug, content}) {
     return (
     
     <div>
@@ -18,8 +18,6 @@ export default function PostPage({frontmatter: {title, date, cover_image}, slug,
     <div className='post-body'>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
-
-
 </div>
 
  </div>)

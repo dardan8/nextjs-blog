@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Post.module.css";
 import { RiArrowRightUpLine } from "react-icons/ri";
+
 type postsProps = {
   post: {};
   frontmatter: any;
@@ -18,11 +19,11 @@ export default function Post({ post }: postsProps) {
           alt='Cover image food'
           className='blogpost-featuredimage'
         />
+
         <div className={styles.blogpost_metadata}>
           <p>Posted on {post.frontmatter.date}</p>
           <p>{post.frontmatter.topic}</p>
         </div>
-
         <h3 className={styles.heading3}>{post.frontmatter.title}</h3>
 
         <p className={styles.excerpt_text}>{post.frontmatter.excerpt}</p>

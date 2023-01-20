@@ -15,7 +15,7 @@
 }
 
 .heroimage {
-  width: 20rem;
-  height: 15rem;
+  width: 22rem;
+  height: 100%;
   object-fit: cover;
 }

@@ -1,26 +1,32 @@
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
 import Head from "next/head";
 import Post from "../components/Post";
-import { sortByDate } from "../utils";
 import Hero from "../components/Hero";
 import Filter from "../components/Filter";
+
+import path from "path";
+import matter from "gray-matter";
+import { sortByDate } from "../utils";
+import fs from "fs";
+
+import { useState } from "react";
 
 type postsProps = {
   posts: [];
 };
 
 export default function Home({ posts }: postsProps) {
+  const [postsRendered, setPostsRendered] = useState(posts);
+
   return (
     <div>
       <Head>
         <title>Cooking Blog by Dardan</title>
       </Head>
       <Hero />
-      <Filter posts={posts} />
+      <Filter posts={posts} setPostsRendered={setPostsRendered} />
+
       <div className='postscontainer'>
-        {posts.map((post, index) => (
+        {postsRendered.map((post, index) => (
           <Post key={index} post={post} />
         ))}
       </div>

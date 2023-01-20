@@ -8,6 +8,10 @@
   z-index: 2;
 }
 
+.card:hover {
+  transform: scale(1.02);
+}
+
 .blogpost_metadata {
   display: flex;
   align-items: center;
