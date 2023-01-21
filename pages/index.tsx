@@ -21,6 +21,7 @@ export default function Home({ posts }: postsProps) {
     <div>
       <Head>
         <title>Cooking Blog by Dardan</title>
+        <link rel='icon' href='/favicon.ico' />
       </Head>
       <Hero />
       <Filter posts={posts} setPostsRendered={setPostsRendered} />

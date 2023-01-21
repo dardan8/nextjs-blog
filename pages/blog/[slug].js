@@ -21,7 +21,10 @@ export default function PostPage({
           <p> Posted on {date}</p>
           <p>{excerpt}</p>
         </div>
-        <img src={cover_image} className={styles.blogfeaturedimage} />
+        <img
+          src={`/nextjs-blog/${cover_image}`}
+          className={styles.blogfeaturedimage}
+        />
       </div>
       <div className='post-body'>
         <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
