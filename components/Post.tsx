@@ -6,6 +6,7 @@ import { RiArrowRightUpLine } from "react-icons/ri";
 type postsProps = {
   post: {
     slug: string;
+    frontmatter: any;
   };
   frontmatter: any;
 };
