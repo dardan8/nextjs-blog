@@ -3,9 +3,6 @@ import Image from "next/image";
 import styles from "../styles/Post.module.css";
 import { RiArrowRightUpLine } from "react-icons/ri";
 
-import image1 from "../public/images/posts/image1.jpg";
-import image2 from "../public/images/posts/image2.jpg";
-
 type postsProps = {
   post: {
     slug: string;
@@ -20,7 +17,7 @@ export default function Post({ post }: postsProps) {
         <Image
           width='400'
           height='200'
-          src={post.frontmatter.cover_image}
+          src={`/nextjs-blog/${post.frontmatter.cover_image}`}
           alt='Cover image food'
           className='blogpost-featuredimage'
         />
