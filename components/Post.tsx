@@ -8,7 +8,6 @@ type postsProps = {
     slug: string;
     frontmatter: any;
   };
-  frontmatter: any;
 };
 
 export default function Post({ post }: postsProps) {
