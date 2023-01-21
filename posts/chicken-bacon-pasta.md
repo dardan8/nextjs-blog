@@ -2,7 +2,7 @@
 title: "Sheet Pan Chicken Fajita Quesadillas"
 date: "March 5, 2021"
 excerpt: "My take on the brilliant sheet pan quesadilla hack that's making the rounds."
-cover_image: "/nextjs-blog/public/images/posts/image4.jpg"
+cover_image: "/main/public/images/posts/image4.jpg"
 topic: "Second Course"
 ---
 
