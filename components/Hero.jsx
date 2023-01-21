@@ -14,7 +14,6 @@ const Hero = () => {
         <SubscribeElement />
       </div>
       <div className={styles.heroright}>
-      
       <Image 
       src={HeroImage}
       alt="Hero image cooking pan"

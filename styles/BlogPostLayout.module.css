@@ -1,0 +1,25 @@
+.blogheader {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  background-color: rgba(128, 128, 128, 0.127);
+  padding: 5rem 2rem;
+  border: 1px solid rgba(128, 128, 128, 0.165);
+  box-sizing: border-box;
+}
+
+.blogfeaturedimage {
+  width: 35rem;
+  height: 17rem;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  border: 1px solid rgba(128, 128, 128, 0.137);
+  overflow: hidden;
+}
+
+.blogheader__left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 4rem;
+}
