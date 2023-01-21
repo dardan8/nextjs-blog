@@ -2,7 +2,7 @@
 title: "Feta-Spinach Puff Pastry Bites"
 date: "June 24 2021"
 excerpt: "This easy appetizer recipe is great for entertaining. The feta cheese adds a light bite to the rich, creamy spinach and cheese-filled cups that will make them unforgettable."
-cover_image: "nextjs-blog/images/image2.jpg"
+cover_image: "/images/posts/image2.jpg"
 topic: "Third Dish"
 ---
 

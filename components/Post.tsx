@@ -3,6 +3,9 @@ import Image from "next/image";
 import styles from "../styles/Post.module.css";
 import { RiArrowRightUpLine } from "react-icons/ri";
 
+import image1 from "../public/images/posts/image1.jpg";
+import image2 from "../public/images/posts/image2.jpg";
+
 type postsProps = {
   post: {
     slug: string;
