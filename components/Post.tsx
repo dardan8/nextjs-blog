@@ -4,7 +4,9 @@ import styles from "../styles/Post.module.css";
 import { RiArrowRightUpLine } from "react-icons/ri";
 
 type postsProps = {
-  post: {};
+  post: {
+    slug: string;
+  };
   frontmatter: any;
 };
 
